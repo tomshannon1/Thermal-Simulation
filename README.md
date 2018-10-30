@@ -11,7 +11,7 @@ different types of radiation such as solar flux and albedo effect. This is not t
 estimated idea to what temperatures in low-earth orbit may look like.
 
 The code written describes the heat equation, which  relates the Laplacian of temperature with an ordinary differential 
-equation $\frac{dT}{dt}$. This equation can be see below.
+equation Let $\frac{dT}{dt}$. This equation can be see below.
 
 \begin{equation}
 \frac{dT}{dt} = \alpha \nabla^2 T
