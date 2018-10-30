@@ -14,7 +14,7 @@ The code written describes the heat equation, which  relates the Laplacian of te
 equation <img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{dT}{dt}" title="\Large \frac{dT}{dt}" /> This equation can be see below.
 
 
-$\frac{dT}{dt} = \alpha \nabla^2 T" title="\frac{dT}{dt$
+$\frac{dT}{dt} = \alpha \nabla^2 T$
 
 
 The heat equation represented in the equation above expresses the temperature change over time in the x, y, and z directions, 
