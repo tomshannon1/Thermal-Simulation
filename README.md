@@ -13,16 +13,15 @@ estimated idea to what temperatures in low-earth orbit may look like.
 The code written describes the heat equation, which  relates the Laplacian of temperature with an ordinary differential 
 equation <img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{dT}{dt}" title="\Large \frac{dT}{dt}" /> This equation can be see below.
 
-\begin{equation}
-\frac{dT}{dt} = \alpha \nabla^2 T
-\end{equation}
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{dT}{dt} = \alpha \nabla^2 T" title="\frac{dT}{dt} = \alpha \nabla^2 T}" />
+
 
 The heat equation represented in the equation above expresses the temperature change over time in the x, y, and z directions, 
 however, this a 2D case, so the equation looks more like:
 
-\begin{equation}
-\frac{dT}{dt} = \alpha \frac{\partial^2T}{\partial^2} + \alpha \frac{\partial^2 T}{\partial y^2}
-\end{equation}
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{dT}{dt} = \alpha \frac{\partial^2T}{\partial^2} + \alpha \frac{\partial^2 T}{\partial y^2}" title="\frac{dT}{dt} = \alpha \frac{\partial^2T}{\partial^2} + \alpha \frac{\partial^2 T}{\partial y^2}" />
 
 For fast computations, the resolution of the system consists of a 30 by 30 matrix which holds temperature values in each cell, constantly
 updating with the evolution in time. These cells are updated by the boundary conditions, or conditions in which introduce heat into the 
