@@ -13,3 +13,7 @@ estimated idea to what temperatures in low-earth orbit may look like.
 For fast computations, the resolution of the system consists of a 30 by 30 matrix which holds temperature values in each cell, constantly
 updating with the evolution in time. These cells are updated by the boundary conditions, or conditions in which introduce heat into the 
 two dimensional cell. 
+
+Below is an example video of the output.
+
+![](videos/output.gif)
